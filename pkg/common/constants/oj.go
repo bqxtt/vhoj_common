@@ -13,6 +13,7 @@ type RemoteOJInfo struct {
 	ProblemUrl string
 	SubmitUrl  string
 	LoginUrl   string
+	StatusUrl  string
 }
 
 var (
@@ -22,12 +23,14 @@ var (
 		ProblemUrl: "/problem?id=",
 		SubmitUrl:  "",
 		LoginUrl:   "/login",
+		StatusUrl:  "",
 	}
 	HDUInfo = &RemoteOJInfo{
 		RemoteOJ:   HDU,
 		Host:       "http://acm.hdu.edu.cn",
 		ProblemUrl: "/showproblem.php?pid=",
-		SubmitUrl:  "",
+		SubmitUrl:  "/submit.php?action=submit",
 		LoginUrl:   "/userloginex.php?action=login&cid=0&notice=0",
+		StatusUrl:  "/status.php?user=%v&pid=%v",
 	}
 )
