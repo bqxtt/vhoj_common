@@ -65,3 +65,10 @@ var (
 	CE           = &SubmissionStatus{14, true}
 	FAILED_OTHER = &SubmissionStatus{15, true}
 )
+
+type Language int32
+
+const (
+	CPP  Language = 1
+	JAVA Language = 2
+)
