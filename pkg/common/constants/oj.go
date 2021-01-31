@@ -38,27 +38,30 @@ var (
 	}
 )
 
-type SubmissionStatus int32
+type SubmissionStatus struct {
+	StatusNum int32
+	Finished  bool
+}
 
-const (
-	PENDING SubmissionStatus = 0
+var (
+	PENDING = &SubmissionStatus{0, false}
 
-	SUBMIT_FAILED_TEMP SubmissionStatus = 1
-	SUBMIT_FAILED_PERM SubmissionStatus = 2
+	SUBMIT_FAILED_TEMP = &SubmissionStatus{1, false}
+	SUBMIT_FAILED_PERM = &SubmissionStatus{2, true}
 
-	SUBMITTED SubmissionStatus = 3
+	SUBMITTED = &SubmissionStatus{3, false}
 
-	QUEUEING  SubmissionStatus = 4
-	COMPILING SubmissionStatus = 5
-	JUDGING   SubmissionStatus = 6
+	QUEUEING  = &SubmissionStatus{4, false}
+	COMPILING = &SubmissionStatus{5, false}
+	JUDGING   = &SubmissionStatus{6, false}
 
-	AC           SubmissionStatus = 7
-	PE           SubmissionStatus = 8
-	WA           SubmissionStatus = 9
-	TLE          SubmissionStatus = 10
-	MLE          SubmissionStatus = 11
-	OLE          SubmissionStatus = 12
-	RE           SubmissionStatus = 13
-	CE           SubmissionStatus = 14
-	FAILED_OTHER SubmissionStatus = 15
+	AC           = &SubmissionStatus{7, true}
+	PE           = &SubmissionStatus{8, true}
+	WA           = &SubmissionStatus{9, true}
+	TLE          = &SubmissionStatus{10, true}
+	MLE          = &SubmissionStatus{11, true}
+	OLE          = &SubmissionStatus{12, true}
+	RE           = &SubmissionStatus{13, true}
+	CE           = &SubmissionStatus{14, true}
+	FAILED_OTHER = &SubmissionStatus{15, true}
 )
