@@ -1,6 +1,6 @@
 package submission_status
 
-import "github.com/bqxtt/vhoj_common/pkg/common/constants/status_type"
+import "github.com/ecnuvj/vhoj_common/pkg/common/constants/status_type"
 
 type SubmissionStatus struct {
 	StatusType status_type.SubmissionStatusType

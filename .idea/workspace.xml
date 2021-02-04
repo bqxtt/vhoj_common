@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e555c258-1d0a-42ee-a19c-a25eb377a35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pkg/common/constants/language/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/common/constants/remote_oj/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/common/constants/status_type/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/common/constants/submission_status/constant.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/common/constants/oj.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,3 +1,3 @@
-module github.com/bqxtt/vhoj_common
+module github.com/ecnuvj/vhoj_common
 
 go 1.14
