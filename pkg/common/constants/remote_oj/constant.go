@@ -23,11 +23,11 @@ var (
 		RemoteOJ:       POJ,
 		Host:           "http://poj.org",
 		ProblemUrl:     "/problem?id=",
-		SubmitUrl:      "",
+		SubmitUrl:      "/submit",
 		LoginUrl:       "/login",
-		StatusUrl:      "",
-		ResultUrl:      "",
-		CompileInfoUrl: "",
+		StatusUrl:      "/status?user_id=%v&problem_id=%v",
+		ResultUrl:      "/showsource?solution_id=%v",
+		CompileInfoUrl: "/showcompileinfo?solution_id=%v",
 	}
 	HDUInfo = &RemoteOJInfo{
 		RemoteOJ:       HDU,
