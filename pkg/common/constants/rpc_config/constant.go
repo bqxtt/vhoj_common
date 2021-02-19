@@ -18,6 +18,12 @@ var (
 			Port: "50001",
 		},
 	}
+	ProblemRpc = &RpcInfo{
+		Address: Address{
+			Ip:   "",
+			Port: "50002",
+		},
+	}
 )
 
 func (rpcInfo *RpcInfo) GetFullAddress() string {
