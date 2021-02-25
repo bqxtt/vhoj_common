@@ -24,6 +24,18 @@ var (
 			Port: "50002",
 		},
 	}
+	UserRpc = &RpcInfo{
+		Address: Address{
+			Ip:   "",
+			Port: "50003",
+		},
+	}
+	CrawlerRpc = &RpcInfo{
+		Address: Address{
+			Ip:   "",
+			Port: "50004",
+		},
+	}
 )
 
 func (rpcInfo *RpcInfo) GetFullAddress() string {

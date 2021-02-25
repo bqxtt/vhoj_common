@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e555c258-1d0a-42ee-a19c-a25eb377a35a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pkg/common/constants/role/constant.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/common/constants/user_problem_status/constant.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/common/constants/rpc_config/constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/common/constants/rpc_config/constant.go" afterDir="false" />
     </list>
