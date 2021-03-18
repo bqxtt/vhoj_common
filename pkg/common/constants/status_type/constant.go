@@ -23,4 +23,22 @@ var (
 	RE           SubmissionStatusType = 13
 	CE           SubmissionStatusType = 14
 	FAILED_OTHER SubmissionStatusType = 15
+
+	CodeToTextMap = map[SubmissionStatusType]string{
+		AC:                 "Accepted",
+		PE:                 "Presentation Error",
+		WA:                 "Wrong Answer",
+		TLE:                "Time Limit Exceeded",
+		MLE:                "Memory Limit Exceeded",
+		OLE:                "Output Limit Exceeded",
+		RE:                 "Runtime Error",
+		CE:                 "Compilation Error",
+		PENDING:            "Pending",
+		SUBMIT_FAILED_TEMP: "Submit Failed",
+		SUBMIT_FAILED_PERM: "Submit Failed",
+		SUBMITTED:          "Submitted",
+		QUEUEING:           "Queueing",
+		COMPILING:          "Compiling",
+		JUDGING:            "Judging",
+	}
 )
