@@ -5,6 +5,8 @@ type RemoteOJ int32
 const (
 	POJ RemoteOJ = 1
 	HDU RemoteOJ = 2
+	MXT RemoteOJ = 26
+	JSK RemoteOJ = 25
 )
 
 type RemoteOJInfo struct {
