@@ -21,6 +21,12 @@ type RemoteOJInfo struct {
 }
 
 var (
+	RemoteOjIdToNameMap = map[RemoteOJ]string{
+		POJ: "POJ",
+		HDU: "HDU",
+		MXT: "MXT",
+		JSK: "JSK",
+	}
 	POJInfo = &RemoteOJInfo{
 		RemoteOJ:       POJ,
 		Host:           "http://poj.org",
