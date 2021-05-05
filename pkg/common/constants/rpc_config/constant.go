@@ -36,6 +36,12 @@ var (
 			Port: "50004",
 		},
 	}
+	RemoteRpc = &RpcInfo{
+		Address: Address{
+			Ip:   "139.9.140.136",
+			Port: "50005",
+		},
+	}
 )
 
 func (rpcInfo *RpcInfo) GetFullAddress() string {
